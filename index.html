@@ -62,6 +62,9 @@ header p{font-size:13px;color:#cfe8d8;margin:4px 0 0}
 </div>
 
 <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+}
 const topics=[
 {t:"ألفا تحة بنية الاء سمالاءعظم 99",sub:"الفاتحة بنية الاسم الأعظم • 99 مرة",c:`بسم الله الرحمن الرحيم.
 والصلاة والسلام على النبي الرءوف الرحيم،
